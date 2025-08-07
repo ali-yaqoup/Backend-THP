@@ -8,7 +8,7 @@ use App\Models\User;
 
 class AdminController extends Controller
 {
-   
+
     public function getAuthenticatedUserInfo()
     {
         $user = auth()->user();
@@ -27,7 +27,7 @@ class AdminController extends Controller
         ]);
     }
 
-  
+
     public function getFormPosts()
     {
         return response()->json(FormPost::with('user')->get());
@@ -120,14 +120,22 @@ class AdminController extends Controller
     {
         $request->validate([
             'full_name' => 'required|string|max:255',
-            'user_type' => 'required|in:artisan,job_owner'
+            'user_type' => 'required|in:admin,artisan,job_owner'
         ]);
+
+        $roleMap = [
+            'admin' => 2,
+            'artisan' => 3,
+            'job_owner' => 1
+        ];
 
         $user = User::findOrFail($id);
         $user->full_name = $request->input('full_name');
         $user->user_type = $request->input('user_type');
+        $user->role_id = $roleMap[$request->input('user_type')] ?? $user->role_id; // تحديث الدور حسب النوع
         $user->save();
 
         return response()->json(['message' => 'User updated successfully']);
     }
+
 }
