@@ -1,0 +1,28 @@
+# Dependencies
+/vendor
+/node_modules
+
+# Environment & secrets — never commit these
+.env
+.env.backup
+.env.production
+*.pem
+
+# Laravel runtime
+/public/storage
+/public/hot
+/public/build
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
