@@ -1,1 +1,130 @@
-IyBUZWNobmljaWFuIEhpcmluZyBQbGF0Zm9ybSDigJQgQmFja2VuZCBBUEkKCkEgTGFyYXZlbCBSRVNUIEFQSSB0aGF0IHBvd2VycyBhIHRlY2huaWNhbCBoaXJpbmcgcGxhdGZvcm0sIGNvbm5lY3Rpbmcgam9iIG93bmVycyAoZW1wbG95ZXJzKSB3aG8gcG9zdCB3b3JrIHJlcXVlc3RzIHdpdGggYXJ0aXNhbnMgKHRlY2huaWNpYW5zKSB3aG8gYmlkIG9uIHRoZW0uIERlc2lnbmVkIHRvIGJlIGNvbnN1bWVkIGJ5IHRoZSBjb21wYW5pb24gQW5ndWxhciBmcm9udGVuZCwgW1Byb2plY3QtVEhQXShodHRwczovL2dpdGh1Yi5jb20vYWxpLXlhcW91cC9CYWNrZW5kLVRIUC90cmVlL21hc3Rlci9wcm9qZWN0LVRIUCkuCgo+ICoqTm90ZToqKiBUaGUgTGFyYXZlbCBhcHBsaWNhdGlvbiBsaXZlcyBpbnNpZGUgdGhlIGBwcm9qZWN0LVRIUC9gIHN1YmRpcmVjdG9yeSBvZiB0aGlzIHJlcG8uCgotLS0KCiMjIFRlY2ggU3RhY2sKCnwgVGVjaG5vbG9neSB8IFZlcnNpb24gfAp8LS0tfC0tLXwKfCBQSFAgfCBeOC4yIHwKfCBMYXJhdmVsIEZyYW1ld29yayB8IF4xMi4wIHwKfCBMYXJhdmVsIFNhbmN0dW0gfCBeNC4xIHwKfCBNeVNRTCAvIE1hcmlhREIgfCDigJQgfAp8IFBIUFVuaXQgfCBeMTEuNSB8CgotLS0KCiMjIEZlYXR1cmVzCgotICoqVGhyZWUtcm9sZSB1c2VyIHN5c3RlbSoqIOKAlCBFbXBsb3llciwgQXJ0aXNhbiwgYW5kIEFkbWluIHJvbGVzIHN0b3JlZCB2aWEgYSBgUm9sZWAgbW9kZWwKLSAqKlR3by1zdGVwIGxvZ2luIHdpdGggT1RQKiog4oCUIExvZ2luIHByb2NlZWRzIGluIHR3byBzdGVwcyAoYC9sb2dpbi1zdGVwMWAsIGAvbG9naW4tc3RlcDJgKSB3aXRoIGFuIGBMb2dpbk90cGAgbW9kZWwgYmFja2luZyBpdAotICoqRW1haWwgdmVyaWZpY2F0aW9uKiog4oCUIFNpZ25lZCBlbWFpbC12ZXJpZmljYXRpb24gbGluayBtYXJrcyB1c2VycyBhcyB2ZXJpZmllZCBhbmQgc2V0cyB0aGVpciBzdGF0dXMgdG8gYHBlbmRpbmdgCi0gKipQYXNzd29yZCByZXNldCB2aWEgT1RQKiog4oCUIFNlbmQgYW5kIHZlcmlmeSBhbiBPVFAgdG8gcmVzZXQgYSBwYXNzd29yZAotICoqSm9iIHBvc3QgbWFuYWdlbWVudCoqIOKAlCBFbXBsb3llcnMgY3JlYXRlLCB1cGRhdGUsIGFuZCBzb2Z0LWRlbGV0ZSBgRm9ybVBvc3RgIHJlY29yZHMgd2l0aCBmaWxlIGF0dGFjaG1lbnRzCi0gKipCaWRkaW5nIHN5c3RlbSoqIOKAlCBBcnRpc2FucyBzdWJtaXQgYmlkcyBvbiBwb3N0cyAoYEJpZGAgbW9kZWwpOyBlbXBsb3llcnMgdmlldyBiaWRzIHBlciBwb3N0IGFuZCBhY2NlcHQgb3IgcmVqZWN0IHRoZW0KLSAqKkFkbWluIG1vZGVyYXRpb24qKiDigJQgQWRtaW4gZW5kcG9pbnRzIGZvciBsaXN0aW5nL2RlbGV0aW5nIHVzZXJzIGFuZCBwb3N0cywgdG9nZ2xpbmcgdXNlciBzdGF0dXMsIGFuZCB2aWV3aW5nIHBsYXRmb3JtIHN0YXRpc3RpY3MgKHVzZXIgY291bnRzLCBwb3N0IGNvdW50cywgZGVsZXRlZC1yZWNvcmQgY291bnRzKQotICoqSlNPTi1vbmx5IEFQSSoqIOKAlCBBbGwgcmVzcG9uc2VzIGFyZSBKU09OOyBubyBzZXJ2ZXItcmVuZGVyZWQgdmlld3MKCi0tLQoKIyMgR2V0dGluZyBTdGFydGVkCgpUaGUgTGFyYXZlbCBwcm9qZWN0IGlzIGluIHRoZSBgcHJvamVjdC1USFAvYCBzdWJkaXJlY3RvcnkuIEFsbCBjb21tYW5kcyBiZWxvdyBzaG91bGQgYmUgcnVuIGZyb20gdGhhdCBkaXJlY3RvcnkuCgpgYGBiYXNoCiMgMS4gQ2xvbmUgdGhlIHJlcG9zaXRvcnkKZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9hbGkteWFxb3VwL0JhY2tlbmQtVEhQLmdpdApjZCBCYWNrZW5kLVRIUC9wcm9qZWN0LVRIUAoKIyAyLiBJbnN0YWxsIFBIUCBkZXBlbmRlbmNpZXMKY29tcG9zZXIgaW5zdGFsbAoKIyAzLiBDb3B5IHRoZSBlbnZpcm9ubWVudCBmaWxlIGFuZCBnZW5lcmF0ZSBhbiBhcHAga2V5CmNwIC5lbnYuZXhhbXBsZSAuZW52CnBocCBhcnRpc2FuIGtleTpnZW5lcmF0ZQoKIyA0LiBDb25maWd1cmUgeW91ciBkYXRhYmFzZSBjcmVkZW50aWFscyBpbiAuZW52CiMgICAgREJfREFUQUJBU0UsIERCX1VTRVJOQU1FLCBEQl9QQVNTV09SRAoKIyA1LiBSdW4gbWlncmF0aW9ucwpwaHAgYXJ0aXNhbiBtaWdyYXRlCgojIDYuIFN0YXJ0IHRoZSBkZXZlbG9wbWVudCBzZXJ2ZXIKcGhwIGFydGlzYW4gc2VydmUKYGBgCgpUaGUgQVBJIHdpbGwgYmUgYXZhaWxhYmxlIGF0IGBodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpYC4KCi0tLQoKIyMgUHJvamVjdCBTdHJ1Y3R1cmUKCmBgYApwcm9qZWN0LVRIUC8K4pSc4pSA4pSAIGFwcC8K4pSCICAg4pSc4pSA4pSAIEh0dHAvICAgICAgICAgICAjIENvbnRyb2xsZXJzIGFuZCBtaWRkbGV3YXJlIChBdXRoLCBBZG1pbiwgUG9zdCwgQmlkKQrilIIgICDilJzilIDilIAgTW9kZWxzLyAgICAgICAgICMgRWxvcXVlbnQgbW9kZWxzOiBVc2VyLCBGb3JtUG9zdCwgQmlkLCBSb2xlLCBMb2dpbk90cArilIIgICDilJzilIDilIAgTm90aWZpY2F0aW9ucy8gICMgRW1haWwgbm90aWZpY2F0aW9uIGNsYXNzZXMK4pSCICAg4pSU4pSA4pSAIFByb3ZpZGVycy8gICAgICAjIFNlcnZpY2UgcHJvdmlkZXJzCuKUnOKUgOKUgCBkYXRhYmFzZS8gICAgICAgICAgICMgTWlncmF0aW9ucyBhbmQgc2VlZGVycwrilJzilIDilIAgcm91dGVzLwrilIIgICDilJTilIDilIAgYXBpLnBocCAgICAgICAgICMgQWxsIEFQSSByb3V0ZSBkZWZpbml0aW9ucwrilJzilIDilIAgc3RvcmFnZS8gICAgICAgICAgICAjIEZpbGUgdXBsb2FkcyBhbmQgbG9ncwrilJTilIDilIAgdGVzdHMvICAgICAgICAgICAgICAjIFBIUFVuaXQgdGVzdCBzdWl0ZQpgYGAKCi0tLQoKIyMgQVBJIEVuZHBvaW50cwoKQWxsIHJvdXRlcyBhcmUgcHJlZml4ZWQgd2l0aCBgL2FwaWAuCgojIyMgUHVibGljCgp8IE1ldGhvZCB8IEVuZHBvaW50IHwgRGVzY3JpcHRpb24gfAp8LS0tfC0tLXwtLS18CnwgYFBPU1RgIHwgYC9yZWdpc3RlcmAgfCBSZWdpc3RlciBhIG5ldyB1c2VyIHwKfCBgUE9TVGAgfCBgL2xvZ2luLXN0ZXAxYCB8IEZpcnN0IHN0ZXAgb2YgT1RQIGxvZ2luIHwKfCBgUE9TVGAgfCBgL2xvZ2luLXN0ZXAyYCB8IFNlY29uZCBzdGVwIG9mIE9UUCBsb2dpbiB8CnwgYFBPU1RgIHwgYC9wYXNzd29yZC9zZW5kLW90cGAgfCBTZW5kIHBhc3N3b3JkLXJlc2V0IE9UUCB8CnwgYFBPU1RgIHwgYC9wYXNzd29yZC9yZXNldGAgfCBSZXNldCBwYXNzd29yZCB3aXRoIE9UUCB8CnwgYEdFVGAgfCBgL2VtYWlsL3ZlcmlmeS97aWR9L3toYXNofWAgfCBWZXJpZnkgZW1haWwgYWRkcmVzcyB8CgojIyMgRW1wbG95ZXIgKGF1dGg6c2FuY3R1bSArIGVtcGxveWVyIHJvbGUpCgp8IE1ldGhvZCB8IEVuZHBvaW50IHwgRGVzY3JpcHRpb24gfAp8LS0tfC0tLXwtLS18CnwgYEdFVGAgfCBgL3Bvc3RzYCB8IExpc3QgYWxsIGpvYiBwb3N0cyB8CnwgYEdFVGAgfCBgL3Bvc3RzL3tpZH1gIHwgR2V0IGEgc2luZ2xlIGpvYiBwb3N0IHwKfCBgUE9TVGAgfCBgL3Bvc3RzYCB8IENyZWF0ZSBhIG5ldyBqb2IgcG9zdCB8CnwgYFBVVGAgfCBgL3Bvc3RzL3tpZH1gIHwgVXBkYXRlIGEgam9iIHBvc3QgfAp8IGBERUxFVEVgIHwgYC9wb3N0cy97aWR9YCB8IFNvZnQtZGVsZXRlIGEgam9iIHBvc3QgfAp8IGBHRVRgIHwgYC9wb3N0cy9iaWRzL3twb3N0SWR9YCB8IExpc3QgYmlkcyBmb3IgYSBwb3N0IHwKfCBgUFVUYCB8IGAvYmlkcy97aWR9L3N0YXR1c2AgfCBBY2NlcHQgb3IgcmVqZWN0IGEgYmlkIHwKCiMjIyBBZG1pbiAoYXV0aDpzYW5jdHVtICsgYWRtaW4gcm9sZSkKCnwgTWV0aG9kIHwgRW5kcG9pbnQgfCBEZXNjcmlwdGlvbiB8CnwtLS18LS0tfC0tLXwKfCBgR0VUYCB8IGAvYWRtaW4vdXNlcnNgIHwgTGlzdCBhbGwgdXNlcnMgfAp8IGBERUxFVEVgIHwgYC9hZG1pbi91c2Vycy97aWR9YCB8IERlbGV0ZSBhIHVzZXIgfAp8IGBQVVRgIHwgYC91c2Vycy97aWR9YCB8IFVwZGF0ZSBhIHVzZXIgfAp8IGBQQVRDSGAgfCBgL3VzZXJzL3tpZH0vc3RhdHVzYCB8IFRvZ2dsZSB1c2VyIHN0YXR1cyB8CnwgYEdFVGAgfCBgL2FkbWluL2Zvcm0tcG9zdHNgIHwgTGlzdCBhbGwgam9iIHBvc3RzIHwKfCBgREVMRVRFYCB8IGAvYWRtaW4vZm9ybS1wb3N0cy97aWR9YCB8IERlbGV0ZSBhIGpvYiBwb3N0IHwKfCBgR0VUYCB8IGAvYWRtaW4vZm9ybS1wb3N0cy1jb3VudGAgfCBDb3VudCBhY3RpdmUgcG9zdHMgfAp8IGBHRVRgIHwgYC9hZG1pbi9mb3JtLXBvc3RzLWRlbGV0ZWQtY291bnRgIHwgQ291bnQgc29mdC1kZWxldGVkIHBvc3RzIHwKfCBgR0VUYCB8IGAvYWRtaW4vYXJ0aXNhbi1jb3VudGAgfCBDb3VudCBhcnRpc2FuIHVzZXJzIHwKfCBgR0VUYCB8IGAvYWRtaW4vdXNlci1jb3VudGAgfCBDb3VudCBhbGwgdXNlcnMgfAp8IGBHRVRgIHwgYC9hZG1pbi91c2Vycy1kZWxldGVkLWNvdW50YCB8IENvdW50IGRlbGV0ZWQgdXNlcnMgfAp8IGBHRVRgIHwgYC9hZG1pbi91c2VyLXN0YXRzYCB8IEFnZ3JlZ2F0ZWQgdXNlciBzdGF0aXN0aWNzIHwKCi0tLQoKIyMgUmVsYXRlZCBSZXBvc2l0b3J5CgpUaGlzIGJhY2tlbmQgaXMgYnVpbHQgdG8gc2VydmUgdGhlICoqUHJvamVjdC1USFAqKiBBbmd1bGFyIGZyb250ZW5kLCB3aGljaCBpcyBpbmNsdWRlZCBpbiB0aGlzIHJlcG8gdW5kZXIgYHByb2plY3QtVEhQL2AuIEEgc3RhbmRhbG9uZSBBbmd1bGFyIGNsaWVudCByZXBvc2l0b3J5IG1heSBhbHNvIGJlIG1haW50YWluZWQgc2VwYXJhdGVseS4K
+# Technician Hiring Platform — Backend API
+
+A Laravel REST API that powers a technical hiring platform, connecting job owners (employers) who post work requests with artisans (technicians) who bid on them. Designed to be consumed by the companion Angular frontend, [Project-THP](https://github.com/ali-yaqoup/Backend-THP/tree/master/project-THP).
+
+> **Note:** The Laravel application lives inside the `project-THP/` subdirectory of this repo.
+
+---
+
+## Tech Stack
+
+| Technology | Version |
+|---|---|
+| PHP | ^8.2 |
+| Laravel Framework | ^12.0 |
+| Laravel Sanctum | ^4.1 |
+| MySQL / MariaDB | — |
+| PHPUnit | ^11.5 |
+
+---
+
+## Features
+
+- **Three-role user system** — Employer, Artisan, and Admin roles stored via a `Role` model
+- **Two-step login with OTP** — Login proceeds in two steps (`/login-step1`, `/login-step2`) with an `LoginOtp` model backing it
+- **Email verification** — Signed email-verification link marks users as verified and sets their status to `pending`
+- **Password reset via OTP** — Send and verify an OTP to reset a password
+- **Job post management** — Employers create, update, and soft-delete `FormPost` records with file attachments
+- **Bidding system** — Artisans submit bids on posts (`Bid` model); employers view bids per post and accept or reject them
+- **Admin moderation** — Admin endpoints for listing/deleting users and posts, toggling user status, and viewing platform statistics (user counts, post counts, deleted-record counts)
+- **JSON-only API** — All responses are JSON; no server-rendered views
+
+---
+
+## Getting Started
+
+The Laravel project is in the `project-THP/` subdirectory. All commands below should be run from that directory.
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/ali-yaqoup/Backend-THP.git
+cd Backend-THP/project-THP
+
+# 2. Install PHP dependencies
+composer install
+
+# 3. Copy the environment file and generate an app key
+cp .env.example .env
+php artisan key:generate
+
+# 4. Configure your database credentials in .env
+#    DB_DATABASE, DB_USERNAME, DB_PASSWORD
+
+# 5. Run migrations
+php artisan migrate
+
+# 6. Start the development server
+php artisan serve
+```
+
+The API will be available at `http://localhost:8000/api`.
+
+---
+
+## Project Structure
+
+```
+project-THP/
+├── app/
+│   ├── Http/           # Controllers and middleware (Auth, Admin, Post, Bid)
+│   ├── Models/         # Eloquent models: User, FormPost, Bid, Role, LoginOtp
+│   ├── Notifications/  # Email notification classes
+│   └── Providers/      # Service providers
+├── database/           # Migrations and seeders
+├── routes/
+│   └── api.php         # All API route definitions
+├── storage/            # File uploads and logs
+└── tests/              # PHPUnit test suite
+```
+
+---
+
+## API Endpoints
+
+All routes are prefixed with `/api`.
+
+### Public
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `POST` | `/register` | Register a new user |
+| `POST` | `/login-step1` | First step of OTP login |
+| `POST` | `/login-step2` | Second step of OTP login |
+| `POST` | `/password/send-otp` | Send password-reset OTP |
+| `POST` | `/password/reset` | Reset password with OTP |
+| `GET` | `/email/verify/{id}/{hash}` | Verify email address |
+
+### Employer (auth:sanctum + employer role)
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/posts` | List all job posts |
+| `GET` | `/posts/{id}` | Get a single job post |
+| `POST` | `/posts` | Create a new job post |
+| `PUT` | `/posts/{id}` | Update a job post |
+| `DELETE` | `/posts/{id}` | Soft-delete a job post |
+| `GET` | `/posts/bids/{postId}` | List bids for a post |
+| `PUT` | `/bids/{id}/status` | Accept or reject a bid |
+
+### Admin (auth:sanctum + admin role)
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/admin/users` | List all users |
+| `DELETE` | `/admin/users/{id}` | Delete a user |
+| `PUT` | `/users/{id}` | Update a user |
+| `PATCH` | `/users/{id}/status` | Toggle user status |
+| `GET` | `/admin/form-posts` | List all job posts |
+| `DELETE` | `/admin/form-posts/{id}` | Delete a job post |
+| `GET` | `/admin/form-posts-count` | Count active posts |
+| `GET` | `/admin/form-posts-deleted-count` | Count soft-deleted posts |
+| `GET` | `/admin/artisan-count` | Count artisan users |
+| `GET` | `/admin/user-count` | Count all users |
+| `GET` | `/admin/users-deleted-count` | Count deleted users |
+| `GET` | `/admin/user-stats` | Aggregated user statistics |
+
+---
+
+## Related Repository
+
+This backend is built to serve the **Project-THP** Angular frontend, which is included in this repo under `project-THP/`. A standalone Angular client repository may also be maintained separately.
